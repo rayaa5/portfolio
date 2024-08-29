@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'CookieRun';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/cookierun/CookieRunRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/cookierun/CookieRunRegular.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/cookierun/CookieRunRegular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/cookierun/CookieRunRegular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/cookierun/CookieRunRegular.ttf') format("truetype");
+    font-display: swap;
+} 
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'CookieRun';
+
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+
+body{
+    min-width: 1200px;
+    overflow-x: hidden
+}
+
+header{
+    z-index: 10;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+/*//로고//*/
+.logo{
+margin-left: 1%;
+width: 100px;
+height: 100px;
+float: left;
+position: absolute;
+
+}
+.logo img{
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+/*//메뉴//*/
+.menu{
+float: right;
+z-index: 10;
+position: fixed;
+height: 100px;
+width: 100%;
+right: 0;
+top: 50%;
+transform: translate(47.5%, -50%);
+color: black;
+}
+.menu a{
+    margin: 10px;
+}
+.menu a:hover{
+    color: aliceblue;
+}
+/*//메인페이지//*/
+.main{
+    width: 100%;
+}
+.mainimg{
+    background-color: #CCC1EC;
+}
+.mainimg img{
+width: 100%;
+}
+/*////*/
+.maintxt{
+height: 800px;
+background-color: #5849A0;
+}
+
+.mainicon{
+    position: relative;
+}
+.mainicon img{
+    margin-top: 300px;
+    width: 50px;
+    height: 50px;
+}
+.maintext{
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+    position: relative;
+}
+.mainbg{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+
+}
+.mainbg img{
+    width: 100%;
+}
+/*/캐릭터/*/
+.chara{
+    width: 100%;
+}
+.charatxt{
+    color: rgb(33, 51, 66);
+    font-size: 24px;
+    position: absolute;
+    right:20%;
+    top: 190%;
+    left: 66%;
+    transform: translate(-20%, 100%);
+    z-index: 1;
+}
+/*//캐릭터이미지//*/
+.character{
+    height: 1200px;
+}
+.charaimg1{
+    width: 450px;
+    height: 450px;
+position: absolute;
+margin-top: 400px;
+left: 20%;
+transform: translate(-20%, 0);
+z-index: 1;
+}
+.charaimg1 img{
+    width: 450px;
+}
+.charaimg1 img:hover{
+    opacity: 0%;
+}
+
+.charaimg2{
+    width: 450px;
+    height: 450px;
+position: absolute;
+margin-top: 400px;
+left: 20%;
+transform: translate(-20%, 0);
+}
+.charaimg2 img{
+    width: 450px;
+}
+/*/캐릭터 배경/*/
+.charabg{
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    transform: translate(0, 0);
+}
+.charabg img{
+    width: 100%;
+    margin-top: 150px;
+    width: 55%;
+    height: 900px;
+    float: right;
+}
+.ccbg{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    transform: translate(10%, 40%);
+    opacity: 20%;
+}
+.ccbg img{
+    width: 80%;
+    height: 1000px;
+    border-radius: 15%;
+}
+/*/턴어라운드/*/
+.turnaround{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    transform: translate(0%, 0%);
+}
+.turntxt{
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    width: 400px;
+    transform: translate(0%, 100%);
+    background-color: #CCC1EC;
+    padding: 13px;
+    border-radius: 10%;
+}
+
+.turnimg{
+    width: 100%;
+    height: 550px;
+}
+.turn{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    left: 0%;
+    transform: translate(12%, 57%);
+}
+.turn img{
+    width: 400px;
+}
+.turn1{
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 33%;
+    transform: translate(0%, -45%);
+}
+.turn1 img{
+    width: 310px;
+}
+.turn2{
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 52%;
+    transform: translate(0%, -145%);
+}
+.turn2 img{
+    width: 290px;
+}
+.turn3{
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 70%;
+    transform: translate(0%, -241%);
+}
+.turn3 img{
+    width: 310px;
+}
+/*/표정/*/
+.characteranother{
+    position: relative;
+    width: 100%;
+    left: 0%;
+    height: 700px;
+}
+.characteranother img{
+    width: 250px;
+}
+.another1{
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 30%;
+    transform: translate(0%, -298%);
+}
+.another1 img{
+    width: 220px;
+}
+.another2{
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 45%;
+    transform: translate(0%, -410%);
+}
+.another3{
+    position: relative;
+    float: left;
+    width: 100%;
+    left: 60%;
+    transform: translate(0%, -520%);
+}
+/*/이모티콘/*/
+.emoticon{
+    z-index: 1;
+    height: 2000px;
+    width: 100%;
+    background-color: #5849A0;
+}
+.emo{
+position: relative;
+top: -500px;
+width: 1000px;
+transform: translate(0%, -0%);
+}
+.emo img{
+    float: left;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10%;
+}
+.emo10{
+    transform: translate(32%, -0%);
+}
+.emotxt1{
+    color: aliceblue;
+    font-size: 30px;
+    left: 50%;
+    transform: translate(44%, -70%);
+    
+}
+/*/굿즈/*/
+.goods{
+    width: 100%;
+
+}
+
+
+/*기타 작업물*/
+.other{
+    width: 100%;
+}
+/*푸터*/
+.bttxt{
+    transform: translate(-20%, 100%);
+    text-align: center;
+}
