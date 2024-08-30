@@ -23,7 +23,7 @@ a{
 }
 
 body{
-    min-width: 1200px;
+    min-width: 1000px;
     overflow-x: hidden
 }
 
@@ -36,6 +36,7 @@ header{
 
 footer{
     width: 100%;
+    height: 200px;
 }
 
 /*//로고//*/
@@ -58,13 +59,14 @@ float: right;
 z-index: 10;
 position: fixed;
 height: 100px;
-width: 100%;
+width: 6%;
 right: 0;
 top: 50%;
-transform: translate(47.5%, -50%);
+
 color: black;
 }
 .menu a{
+    
     margin: 10px;
 }
 .menu a:hover{
@@ -72,6 +74,7 @@ color: black;
 }
 /*//메인페이지//*/
 .main{
+    
     width: 100%;
 }
 .mainimg{
@@ -120,7 +123,7 @@ background-color: #5849A0;
     right:20%;
     top: 190%;
     left: 66%;
-    transform: translate(-20%, 100%);
+    transform: translate(-20%, 160%);
     z-index: 1;
 }
 /*//캐릭터이미지//*/
@@ -200,47 +203,51 @@ transform: translate(-20%, 0);
 
 .turnimg{
     width: 100%;
-    height: 550px;
+
 }
 .turn{
     position: relative;
     width: 100%;
     height: 400px;
     left: 0%;
-    transform: translate(12%, 57%);
+    transform: translate(12%, 61%);
 }
 .turn img{
-    width: 400px;
+    min-width: 0%;
+    width: 20%;
 }
 .turn1{
     position: relative;
     float: left;
     width: 100%;
     left: 33%;
-    transform: translate(0%, -45%);
+    transform: translate(0%, -46%);
 }
 .turn1 img{
-    width: 310px;
+    min-width: 0%;
+    width: 17%;
 }
 .turn2{
     position: relative;
     float: left;
     width: 100%;
     left: 52%;
-    transform: translate(0%, -145%);
+    transform: translate(0%, -143%);
 }
 .turn2 img{
-    width: 290px;
+    min-width: 0%;
+    width: 17%;
 }
 .turn3{
     position: relative;
     float: left;
     width: 100%;
     left: 70%;
-    transform: translate(0%, -241%);
+    transform: translate(0%, -251%);
 }
 .turn3 img{
-    width: 310px;
+    min-width: 0%;
+    width: 17%;
 }
 /*/표정/*/
 .characteranother{
@@ -279,7 +286,7 @@ transform: translate(-20%, 0);
 /*/이모티콘/*/
 .emoticon{
     z-index: 1;
-    height: 2000px;
+    height: 2300px;
     width: 100%;
     background-color: #5849A0;
 }
@@ -310,14 +317,15 @@ transform: translate(0%, -0%);
     width: 100%;
 
 }
-
-
+.goodsimg img{
+width: 100%;
+}
 /*기타 작업물*/
 .other{
     width: 100%;
 }
 /*푸터*/
 .bttxt{
-    transform: translate(-20%, 100%);
+
     text-align: center;
 }
